@@ -1,5 +1,7 @@
 use std::env;
 use std::process::Command;
+
+mod roblox_install;
 use roblox_install::RobloxStudio;
 
 fn main() -> Result<(), String> {
